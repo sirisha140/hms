@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+            
+        }
+
+        tr:nth-child(odd) {
+            background-color: #87afc7;
+        }
+
+        tr:nth-child(even) {
+            background-color: #95b9c7;
+        }
+
+        .btn {
+            padding: 10px;
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <form method="post" action="drugorder.html">
+    <h2>Available Drugs</h2>
+
+
+    <table>
+        <tr>
+            <th>S.NO</th>
+            <th>Drug Name</th>
+            <th>Disease</th>
+            <th>Quantity</th>
+            <th>Cost</th>
+        </tr>
+        <tr>
+               <td>1</td>
+            <td>PARACETAMOL 500mg</td>
+            <td>fever</td>
+            <td>10 tabs</td>
+            <td>50/-</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>THYROXIN 100mcg</td>
+            <td>Hypothyroid</td>
+            <td>100tabs</td>
+            <td>157/-</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>ZINCCOLD 30mg</td>
+            <td>Cold</td>
+            <td>10tabs</td>
+            <td>80/-</td>
+        </tr>
+        <tr>
+               <td>4</td>
+            <td>IBUPROFEN 400mg</td>
+            <td>pain</td>
+            <td>84tabs</td>
+            <td>189/-</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>CHLOROPHENAMINE 4mg</td>
+            <td>insectbites</td>
+            <td>8tabs</td>
+            <td>240/-</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td></td>
+            <td>Austria</td>
+            <td>Roland Mendel</td>
+            <td>Austria</td>
+        </tr>
+        <tr>
+               <td>7</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>bjnkjj</td>
+            <td>Austria</td>
+        </tr>
+        <tr>
+               <td>10</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>Roland Mendel</td>
+            <td>Austria</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td>Roland Mendel</td>
+            <td>Austria</td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td>Roland Mendel</td>
+            <td>Austria</td>
+        </tr>
+        <tr>
+            <td>18</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>19</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td>Roland Mendel</td>
+            <td>Austria</td>
+        </tr>
+
+    </table>
+    
+    <div class="d-flex flex-row justify-content-center">
+        <a href="drugorder.html" target="_blank">
+        <button class="btn btn-primary" onclick="window.location.href='drugorder.html'">OrderNow</button>
+        </a>
+    </div>
+    
+
+</body>
+
+</html>

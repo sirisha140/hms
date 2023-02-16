@@ -1,0 +1,229 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+body{
+  font-family:serif;
+}
+
+  
+nav ul li a{
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 0px 13px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+a:hover{
+  background: #47B5FF;
+  transition: .5s;
+  text-decoration: none;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 60px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width:952px) {
+    label.logo{
+      font-size: 30px;
+      padding-left: 50px;
+    }
+    nav ul li a{
+      font-size: 16px;
+    }
+}
+@media (max-width:858px) {
+  .checkbtn{
+    display:block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all.5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+  }
+  a:hover{
+    background: none;
+    color: #0082e6;
+    text-decoration: none;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+.image-1{
+  background-size: cover;
+  height: auto;
+  max-width: 100%;
+  background-color: #47B5FF;
+
+}
+/* section{
+  background: url(/home/mani2/Desktop/Pharmacy/images/bg.png) no-repeat;
+  background-size: cover;
+  height: calc(100vh - 80px);
+} */
+
+/* features */
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+}
+
+.features-box{
+  text-align: center;
+  padding: 5%;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.icon{
+  color: black;
+  margin-bottom: 1.5rem;
+}
+
+.icon:hover{
+  color: #17a2b8;
+}
+
+
+
+/
+
+/* signup */
+* { margin: 0px; padding: 0px; }
+body {
+	font-size: 120%;
+	background: #F8F8FF;
+}
+.header {
+
+	width: 40%;
+	margin: 50px auto 0px;
+	color: white;
+	background: #5F9EA0;
+	text-align: center;
+	border: 1px solid #B0C4DE;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+}
+form, .content {
+	width: 40%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid #B0C4DE;
+	background: white;
+	border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+	margin: 10px 0px 10px 0px;
+}
+.input-group label {
+	display: block;
+	text-align: left;
+	margin: 3px;
+}
+.input-group input {
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid rgb(128, 128, 128);
+}
+.btn-1 {
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: #5F9EA0;
+	border: none;
+	border-radius: 5px;
+}
+
+
+
+
+
+.offer-button{
+  color: white;
+  background-color: #47B5FF;
+  padding: 10px;
+  border: none;
+  padding:10px 20px;
+  border-radius: 3px;
+}
+.offer-button:hover{
+  background-color: black;
+  color: #47B5FF;
+  border: 1px solid #47B5FF;
+}
+.offer-note{
+  color: yellow;
+}
+.offer-image{
+  width: 700px;
+  height: 690;
+  float: right;
+  position: relative;
+  bottom: 530px;
+}
+
+/* Footer Section */
+
+
+#footer{
+  background-color: #19232d;
+}
+
+.top-container {
+
+}
+
+.footer-image {
+    height: 40px;
+    width: 70px;
+}
+
+
+
+
+
+
+
+.pic{
+  background-image: url("https://www.freepik.com/premium-photo/close-up-colourful-pills-spilled-from-plastic-bottle_6897820.htm#query=medicines&position=5&from_view=search&track=sph");
+}
